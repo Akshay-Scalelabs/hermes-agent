@@ -1,0 +1,25 @@
+name: evident-evidence
+title: "Is this evident?"
+repo: https://github.com/Evident-Scalelabs/evident-hermes-plugin
+sha: b10d4e495c90306235dc66efa6b649d57eb5ad8b
+version: "0.18.1"
+description: Follow a buyer’s journey through a website, highlight conflicting claims, and replay checks after a change.
+maintainer: Evident-Scalelabs
+tier: community
+category: web
+platforms: [linux, macos]
+capabilities:
+  provides_tools:
+    - evident_scan
+    - evident_demo
+    - evident_report
+    - evident_browse
+    - evident_screenshot
+    - evident_explain
+    - evident_observe
+    - evident_verify
+    - evident_inspect
+    - evident_delete
+  provides_hooks: []
+  provides_middleware: []
+  requires_env: []
